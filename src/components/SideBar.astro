@@ -29,12 +29,9 @@ import { Image } from "@astrojs/image/components";
     <ul class="grow shrink">
       <!-- Sidebar content here -->
       <li><a id="home" href="/">Home</a></li>
-      <li><a id="projects" href="/projects">Projects</a></li>
-      <li><a id="services" href="/services">Services</a></li>
-      <li><a id="store" href="/store">Store</a></li>
-      <li><a id="blog" href="/blog/">Blog</a></li>
-      <li><a id="cv" href="/cv">CV</a></li>
-      <li><a href="mailto:contact.manuelernestog@gmail.com">Contact</a></li>
+      <li><a id="about" href="/about">About</a></li>
+      <li><a id="updates" href="/updates">Updates</a></li>
+      <li><a id="team" href="/team">Team</a></li>
     </ul>
     <div class="social-icons px-4 my-2 flex self-center">
       <a
@@ -139,17 +136,20 @@ import { Image } from "@astrojs/image/components";
 </div>
 <script>
   const homeLink = document.getElementById("home");
-  const projectsLink = document.getElementById("projects");
-  const servicesLink = document.getElementById("services");
-  const storeLink = document.getElementById("store");
+  const aboutLink = document.getElementById("about");
+  const teamLink = document.getElementById("team");
+  const updatesLink = document.getElementById("updates");
+  /* 
   const blogLink = document.getElementById("blog");
   const cvLink = document.getElementById("cv");
+  */
+ 
 
   var isHome = true;
 
   const url = window.location.href;
 
-  const pages = [projectsLink, servicesLink, storeLink, blogLink, cvLink];
+  const pages = [aboutLink, teamLink, updatesLink];
 
   const activeClass = "bg-base-300"; // For primary color replace with `active` class
 
