@@ -13,8 +13,8 @@ const last_posts = posts.slice(0, 3);
 <BaseLayout>
 
     <div class="pb-12 mt-5">
-      <div class="text-xl py-1">Welcome to the project page of</div>
-      <div class="text-5xl font-bold">PoliSoNI</div>
+      <div class="text-xl py-1">Welcome to</div>
+      <div class="text-5xl font-bold">PoliSoNI🤖</div>
       <div class="text-3xl py-3 font-bold">Exploring the socio-political network in Indonesia</div>
       <div class="py-2">
         <text class="text-lg">The project utilises computational methods to discover the social network in
@@ -33,35 +33,7 @@ const last_posts = posts.slice(0, 3);
     </div>
 
     <div>
-      <div class="text-3xl w-full font-bold mb-2">My last projects {"</>"}</div>
-    </div>
-
-    <HorizontalCard
-      title="Demo Project 1"
-      img="/post_img.webp"
-      desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      url="#"
-      badge="NEW"
-    />
-    <div class="divider my-0"></div>
-    <HorizontalCard
-    title="Demo Project 2"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-  />
-    <div class="divider my-0"></div>
-    <HorizontalCard
-    title="Demo Project 3"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="FOSS"
-  />
-
-
-    <div>
-      <div class="text-3xl w-full font-bold mb-5 mt-10">Latest from blog</div>
+      <div class="text-3xl w-full font-bold mb-5 mt-10">Latest update</div>
     </div>
 
     {
@@ -70,7 +42,7 @@ const last_posts = posts.slice(0, 3);
           title={post.data.title}
           img={post.data.heroImage}
           desc={post.data.description}
-          url={"/blog/" + post.slug}
+          url={"/updates/" + post.slug}
           target="_self"
           badge={post.data.badge}
         />
