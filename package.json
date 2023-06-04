@@ -21,6 +21,8 @@
     "boxicons": "^2.1.4",
     "daisyui": "^2.27.0",
     "dayjs": "^1.11.7",
+    "markdown-it": "^13.0.1",
+    "markdown-it-iframe": "^1.0.0",
     "sharp": "^0.31.3"
   },
   "devDependencies": {

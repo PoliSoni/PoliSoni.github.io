@@ -4,6 +4,7 @@ description: "A simple explanation of our infrastructure to scrape CV content on
 pubDate: "May 16 2023"
 heroImage: "https://w0.peakpx.com/wallpaper/581/454/HD-wallpaper-network-concept-darkness-points-and-lines-social-network-abstract-art-network.jpg"
 ---
+
 <!-- Config mathjax -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML"></script>
 
@@ -21,7 +22,7 @@ In simple undirected graph, the degree of a node is the total edges incidenting 
 $$
 \{Deg(v) = |{u: (u, v) \in E|}}\
 $$
-where u denotes all nodes in the graph. 
+where <strong>u</strong> denotes all nodes in the graph. 
 
 Using python, we can compute the degree as follow:
 
