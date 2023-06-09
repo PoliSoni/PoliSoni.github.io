@@ -44,7 +44,7 @@ nt.show('nx.html') #save as html
                  width: 750px;
                  height: 500px;
                  background-color: #ffffff;
-                 border: 1px solid lightgray;
+                 /* border: 1px solid lightgray; */
                  position: relative;
                  float: left;
              }    
@@ -74,7 +74,7 @@ nt.show('nx.html') #save as html
               function drawGraph() {
                   var container = document.getElementById('mynetwork');
                   // parsing and collecting nodes and edges from the python
-                  nodes = new vis.DataSet([{"color": "#97c2fc", "id": "Politician_1", "label": "Politician_1", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Politician_2", "label": "Politician_2", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Politician_3", "label": "Politician_3", "shape": "dot", "size": 10}]);
+                  nodes = new vis.DataSet([{"color": "#97c2fc", "id": "Politician_1", "label": "Politician_1", "shape": "dot", "size": 15}, {"color": "#97c2fc", "id": "Politician_2", "label": "Politician_2", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Politician_3", "label": "Politician_3", "shape": "dot", "size": 10}]);
                   edges = new vis.DataSet([{"from": "Politician_1", "to": "Politician_2", "width": 1}, {"from": "Politician_1", "to": "Politician_3", "width": 1}]);
                   nodeColors = {};
                   allNodes = nodes.get({ returnType: "Object" });
