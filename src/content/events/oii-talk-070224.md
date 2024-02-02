@@ -3,7 +3,7 @@ title: "Zooming in on the digital aspects of the Indonesian Election"
 description: "Leiden HumAN reseachers talk at Oxford Internet Institute"
 pubDate: "February 2 2024"
 date: "February 7 2024"
-heroImage: "public/Indonesian Election.png"
+heroImage: "/Indonesian Election.png"
 ---
 
 Leiden HumAN researcher Justin Wang Ngai Yeung and Leiden Institute for Area Studies researcher Dr. Rizal Shidiq will present at the upcoming event at the Oxford Internet Institute (OII) on their latest work Political Social Network in Indonesia (POLISONI).
