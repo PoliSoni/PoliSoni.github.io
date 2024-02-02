@@ -3,7 +3,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import HorizontalCard from "../components/HorizontalCard.astro";
 import { getCollection } from "astro:content";
 
-const posts = (await getCollection('blog')).sort(
+const posts = (await getCollection('updates')).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
 
@@ -16,8 +16,13 @@ const last_posts = posts.slice(0, 3);
       <div class="text-5xl font-bold">PoliSoNI🤖</div>
       <div class="text-3xl py-3 font-bold">Exploring the socio-political network in Indonesia</div>
       <div class="py-2">
-        <text class="text-lg">The project utilises computational methods to discover the social network in
-          the political landscape in Indonesia.
+        <text class="text-lg">On February 14, 2024, Indonesia will embark on a monumental democratic exercise, welcoming 205 million eligible voters to shape its future governance. With approximately 300,000 candidates competing for 20,614 political seats, the sheer scale of Indonesia’s general election calls for both local and global attention.
+          <br></br>
+          Our project, <strong>Political Social Networks in Indonesia</strong>, merges the intricate knowledge of Indonesia’s political economy with cutting-edge techniques in web scraping, social network analysis, and machine learning. This collaboration aims to democratise access to election data, opening new avenues for research into Indonesia’s political dynamics and democratic processes.
+          <br></br>
+          As we navigate through the complexities of collecting and analysing candidate profiles, we confront the challenges of data preservation in an ever-evolving digital landscape. Our initiative seeks to build a comprehensive data repository and pioneer a methodology that ensures the longevity and accessibility of election data for future explorations.
+          <br></br>
+          Join us as we delve into the heart of Indonesia’s political fabric, unravelling the threads that weave together its political, economic, and social narratives. Our journey is not just about capturing data; it’s about fostering a deeper understanding of democracy in action and contributing to a more informed and engaged research community.
           <br></br>
         </text>
           </text
@@ -32,7 +37,7 @@ const last_posts = posts.slice(0, 3);
     </div>
 
     <div>
-      <div class="text-3xl w-full font-bold mb-5 mt-10">Latest update</div>
+      <div class="text-3xl w-full font-bold mb-5 mt-10">Latest updates</div>
     </div>
 
     {
