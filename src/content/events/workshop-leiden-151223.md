@@ -10,8 +10,7 @@ heroImage: ""
 On 15 December the PoliSoNI Project is organizing its first workshop to present the preliminary results of the project and discuss it with both experts in Indonesian general elections/politics and software developers! The workshop is open to anyone who is interested in the 2024 Indonesian elections and how digital technologies can help us in using web data to create accessible research materials for studies on politics and political economy.
 
 ### Organizers
-Dr Jelena Prokic
-Dr Rizal Shidiq
+Dr Jelena Prokic & Dr Rizal Shidiq
 
 ### Location
 Digital Lab, P.J. Veth 1.07

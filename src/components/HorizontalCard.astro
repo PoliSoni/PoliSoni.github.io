@@ -1,5 +1,5 @@
 ---
-const { title, img, desc, url, badge, tags, target = "_blank" } = Astro.props;
+const { title, img, desc, url, badge, tags, target = "_blank", date } = Astro.props;
 import { Image } from "@astrojs/image/components";
 ---
 
@@ -26,6 +26,7 @@ import { Image } from "@astrojs/image/components";
           {badge && <div class="badge badge-secondary mx-2">{badge}</div>}
         </h1>
         <p class="py-1 text-1xl">{desc}</p>
+        {date && <p class="text-sm py-1">{date}</p>}
         <div class="card-actions justify-end">
           {
             tags &&

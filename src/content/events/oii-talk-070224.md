@@ -14,11 +14,11 @@ Leiden HumAN researcher Justin Wang Ngai Yeung and Leiden Institute for Area Stu
 ### Speakers
 Lucinia Guttel,
 Justin Yeung,
-Diyi Liu
+Diyi Liu, and 
 Dr Rizal Shidiq
 
 ### Location
-In-person (1 St Giles, Oxford)/Online
+In-person (1 St Giles, Oxford) / Online
 
 ### Date & Time
 Wednesday 7 Feb 2024, 18:00-19:00(CEST)
