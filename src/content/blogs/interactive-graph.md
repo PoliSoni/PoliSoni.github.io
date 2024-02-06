@@ -2,7 +2,9 @@
 title: "An interactive graph"
 description: "Creating an interactive graph with NetworkX and PyVis"
 pubDate: "June 5 2023"
+type: "blog"
 heroImage: "https://d3-graph-gallery.com/img/block/block_networkMiserable.png"
+slug: "interactive-graph"
 ---
 ## How to create an intercative graph?
 

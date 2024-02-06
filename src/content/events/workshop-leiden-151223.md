@@ -3,7 +3,9 @@ title: "PoliSoNI Workshop"
 description: "Workshop on the political social networds in Indonesia"
 pubDate: "December 12 2023"
 date: "December 15 2023"
+type: "event"
 heroImage: ""
+slug: "workshop-leiden-151223"
 ---
 
 ### About the event

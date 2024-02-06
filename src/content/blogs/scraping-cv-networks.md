@@ -2,7 +2,9 @@
 title: "Scraping CV networks"
 description: "A simple explanation of our infrastructure to scrape CV content on a digital database"
 pubDate: "May 16 2023"
+type: "blog"
 heroImage: "https://w0.peakpx.com/wallpaper/581/454/HD-wallpaper-network-concept-darkness-points-and-lines-social-network-abstract-art-network.jpg"
+slug: "scraping-cv-networks"
 ---
 
 <!-- Config mathjax -->
